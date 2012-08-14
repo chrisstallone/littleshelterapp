@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD238AFB15DACDD400835F89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD238AFA15DACDD400835F89 /* UIKit.framework */; };
+		AD238AFD15DACDD400835F89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD238AFC15DACDD400835F89 /* Foundation.framework */; };
+		AD238AFF15DACDD400835F89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD238AFE15DACDD400835F89 /* CoreGraphics.framework */; };
+		AD238B0515DACDD400835F89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD238B0315DACDD400835F89 /* InfoPlist.strings */; };
+		AD238B0715DACDD400835F89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD238B0615DACDD400835F89 /* main.m */; };
+		AD238B0B15DACDD400835F89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD238B0A15DACDD400835F89 /* AppDelegate.m */; };
+		AD238B0E15DACDD400835F89 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD238B0C15DACDD400835F89 /* MainStoryboard.storyboard */; };
+		AD238B1115DACDD400835F89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD238B1015DACDD400835F89 /* ViewController.m */; };
+		AD238B1915DACDD400835F89 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD238B1815DACDD400835F89 /* SenTestingKit.framework */; };
+		AD238B1A15DACDD400835F89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD238AFA15DACDD400835F89 /* UIKit.framework */; };
+		AD238B1B15DACDD400835F89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD238AFC15DACDD400835F89 /* Foundation.framework */; };
+		AD238B2315DACDD400835F89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD238B2115DACDD400835F89 /* InfoPlist.strings */; };
+		AD238B2615DACDD400835F89 /* littleshelterappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD238B2515DACDD400835F89 /* littleshelterappTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD238B1C15DACDD400835F89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD238AED15DACDD400835F89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD238AF515DACDD400835F89;
+			remoteInfo = littleshelterapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD238AF615DACDD400835F89 /* littleshelterapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = littleshelterapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD238AFA15DACDD400835F89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD238AFC15DACDD400835F89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD238AFE15DACDD400835F89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD238B0215DACDD400835F89 /* littleshelterapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "littleshelterapp-Info.plist"; sourceTree = "<group>"; };
+		AD238B0415DACDD400835F89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD238B0615DACDD400835F89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD238B0815DACDD400835F89 /* littleshelterapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "littleshelterapp-Prefix.pch"; sourceTree = "<group>"; };
+		AD238B0915DACDD400835F89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD238B0A15DACDD400835F89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD238B0D15DACDD400835F89 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AD238B0F15DACDD400835F89 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD238B1015DACDD400835F89 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD238B1715DACDD400835F89 /* littleshelterappTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = littleshelterappTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD238B1815DACDD400835F89 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AD238B2015DACDD400835F89 /* littleshelterappTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "littleshelterappTests-Info.plist"; sourceTree = "<group>"; };
+		AD238B2215DACDD400835F89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD238B2415DACDD400835F89 /* littleshelterappTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = littleshelterappTests.h; sourceTree = "<group>"; };
+		AD238B2515DACDD400835F89 /* littleshelterappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = littleshelterappTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD238AF315DACDD400835F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD238AFB15DACDD400835F89 /* UIKit.framework in Frameworks */,
+				AD238AFD15DACDD400835F89 /* Foundation.framework in Frameworks */,
+				AD238AFF15DACDD400835F89 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD238B1315DACDD400835F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD238B1915DACDD400835F89 /* SenTestingKit.framework in Frameworks */,
+				AD238B1A15DACDD400835F89 /* UIKit.framework in Frameworks */,
+				AD238B1B15DACDD400835F89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD238AEB15DACDD400835F89 = {
+			isa = PBXGroup;
+			children = (
+				AD238B0015DACDD400835F89 /* littleshelterapp */,
+				AD238B1E15DACDD400835F89 /* littleshelterappTests */,
+				AD238AF915DACDD400835F89 /* Frameworks */,
+				AD238AF715DACDD400835F89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD238AF715DACDD400835F89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD238AF615DACDD400835F89 /* littleshelterapp.app */,
+				AD238B1715DACDD400835F89 /* littleshelterappTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD238AF915DACDD400835F89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD238AFA15DACDD400835F89 /* UIKit.framework */,
+				AD238AFC15DACDD400835F89 /* Foundation.framework */,
+				AD238AFE15DACDD400835F89 /* CoreGraphics.framework */,
+				AD238B1815DACDD400835F89 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD238B0015DACDD400835F89 /* littleshelterapp */ = {
+			isa = PBXGroup;
+			children = (
+				AD238B0915DACDD400835F89 /* AppDelegate.h */,
+				AD238B0A15DACDD400835F89 /* AppDelegate.m */,
+				AD238B0C15DACDD400835F89 /* MainStoryboard.storyboard */,
+				AD238B0F15DACDD400835F89 /* ViewController.h */,
+				AD238B1015DACDD400835F89 /* ViewController.m */,
+				AD238B0115DACDD400835F89 /* Supporting Files */,
+			);
+			path = littleshelterapp;
+			sourceTree = "<group>";
+		};
+		AD238B0115DACDD400835F89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD238B0215DACDD400835F89 /* littleshelterapp-Info.plist */,
+				AD238B0315DACDD400835F89 /* InfoPlist.strings */,
+				AD238B0615DACDD400835F89 /* main.m */,
+				AD238B0815DACDD400835F89 /* littleshelterapp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD238B1E15DACDD400835F89 /* littleshelterappTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD238B2415DACDD400835F89 /* littleshelterappTests.h */,
+				AD238B2515DACDD400835F89 /* littleshelterappTests.m */,
+				AD238B1F15DACDD400835F89 /* Supporting Files */,
+			);
+			path = littleshelterappTests;
+			sourceTree = "<group>";
+		};
+		AD238B1F15DACDD400835F89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD238B2015DACDD400835F89 /* littleshelterappTests-Info.plist */,
+				AD238B2115DACDD400835F89 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD238AF515DACDD400835F89 /* littleshelterapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD238B2915DACDD400835F89 /* Build configuration list for PBXNativeTarget "littleshelterapp" */;
+			buildPhases = (
+				AD238AF215DACDD400835F89 /* Sources */,
+				AD238AF315DACDD400835F89 /* Frameworks */,
+				AD238AF415DACDD400835F89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = littleshelterapp;
+			productName = littleshelterapp;
+			productReference = AD238AF615DACDD400835F89 /* littleshelterapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD238B1615DACDD400835F89 /* littleshelterappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD238B2C15DACDD400835F89 /* Build configuration list for PBXNativeTarget "littleshelterappTests" */;
+			buildPhases = (
+				AD238B1215DACDD400835F89 /* Sources */,
+				AD238B1315DACDD400835F89 /* Frameworks */,
+				AD238B1415DACDD400835F89 /* Resources */,
+				AD238B1515DACDD400835F89 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD238B1D15DACDD400835F89 /* PBXTargetDependency */,
+			);
+			name = littleshelterappTests;
+			productName = littleshelterappTests;
+			productReference = AD238B1715DACDD400835F89 /* littleshelterappTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD238AED15DACDD400835F89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Little Shelter";
+			};
+			buildConfigurationList = AD238AF015DACDD400835F89 /* Build configuration list for PBXProject "littleshelterapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD238AEB15DACDD400835F89;
+			productRefGroup = AD238AF715DACDD400835F89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD238AF515DACDD400835F89 /* littleshelterapp */,
+				AD238B1615DACDD400835F89 /* littleshelterappTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD238AF415DACDD400835F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD238B0515DACDD400835F89 /* InfoPlist.strings in Resources */,
+				AD238B0E15DACDD400835F89 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD238B1415DACDD400835F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD238B2315DACDD400835F89 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD238B1515DACDD400835F89 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD238AF215DACDD400835F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD238B0715DACDD400835F89 /* main.m in Sources */,
+				AD238B0B15DACDD400835F89 /* AppDelegate.m in Sources */,
+				AD238B1115DACDD400835F89 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD238B1215DACDD400835F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD238B2615DACDD400835F89 /* littleshelterappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD238B1D15DACDD400835F89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD238AF515DACDD400835F89 /* littleshelterapp */;
+			targetProxy = AD238B1C15DACDD400835F89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD238B0315DACDD400835F89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD238B0415DACDD400835F89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AD238B0C15DACDD400835F89 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD238B0D15DACDD400835F89 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		AD238B2115DACDD400835F89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD238B2215DACDD400835F89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD238B2715DACDD400835F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD238B2815DACDD400835F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD238B2A15DACDD400835F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "littleshelterapp/littleshelterapp-Prefix.pch";
+				INFOPLIST_FILE = "littleshelterapp/littleshelterapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD238B2B15DACDD400835F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "littleshelterapp/littleshelterapp-Prefix.pch";
+				INFOPLIST_FILE = "littleshelterapp/littleshelterapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AD238B2D15DACDD400835F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/littleshelterapp.app/littleshelterapp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "littleshelterapp/littleshelterapp-Prefix.pch";
+				INFOPLIST_FILE = "littleshelterappTests/littleshelterappTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AD238B2E15DACDD400835F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/littleshelterapp.app/littleshelterapp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "littleshelterapp/littleshelterapp-Prefix.pch";
+				INFOPLIST_FILE = "littleshelterappTests/littleshelterappTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD238AF015DACDD400835F89 /* Build configuration list for PBXProject "littleshelterapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD238B2715DACDD400835F89 /* Debug */,
+				AD238B2815DACDD400835F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD238B2915DACDD400835F89 /* Build configuration list for PBXNativeTarget "littleshelterapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD238B2A15DACDD400835F89 /* Debug */,
+				AD238B2B15DACDD400835F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD238B2C15DACDD400835F89 /* Build configuration list for PBXNativeTarget "littleshelterappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD238B2D15DACDD400835F89 /* Debug */,
+				AD238B2E15DACDD400835F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD238AED15DACDD400835F89 /* Project object */;
+}
